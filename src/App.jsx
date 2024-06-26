@@ -1,9 +1,16 @@
 import "./App.css";
+import TodoList from "./TodoList";
+import Header from "./Header";
 
 function App() {
   return (
     <>
-      <h1>Hello Trena!</h1>
+      <Header />
+      <main>
+        <TodoList title="Walmart" />
+        <TodoList title="Harmons" />
+        <TodoList title="Smiths" />
+      </main>
     </>
   );
 }
